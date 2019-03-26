@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">template201903</string>
+
+    <!--common-->
+    <string name="OK">OK</string>
+    <string name="CANCEL">CANCEL</string>
+
+    <!--dialog title-->
+    <string name="dialog_title1">削除してよろしいですか？</string>
+
+    <!--error msg-->
+    <string name="error_msg1">タイトルは必須項目です</string>
+    <string name="error_msg2">削除に必要な情報が不足しています</string>
+
+    <!--sucess msg-->
+    <string name="success_msg1">登録完了</string>
+    <string name="success_msg2">削除しました</string>
 </resources>

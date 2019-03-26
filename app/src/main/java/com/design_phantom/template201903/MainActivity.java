@@ -14,5 +14,9 @@ public class MainActivity extends AppCompatActivity {
         // Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713
         //MobileAds.initialize(this, "ca-app-pub-3940256099942544~3347511713");
         MobileAds.initialize(this, "ca-app-pub-3940256099942544~3347511713");
+
+
+
+
     }
 }
