@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/colorPrimaryDark"/>
+    <item>
+        <bitmap android:src="@drawable/ic_launcher_foreground" android:gravity="top" android:alpha="0.5"/>
+    </item>
+
+    <item
+        android:top="300dp"
+        android:bottom="-300dp"
+        android:left="0dp"
+        android:right="-300dp">
+        <rotate
+            android:fromDegrees="-20"
+            android:pivotX="40%"
+            android:pivotY="100%">
+            <shape
+                android:shape="rectangle">
+                <solid
+                    android:color="?android:colorBackground"/>
+            </shape>
+        </rotate>
+    </item>
+
+    <item
+        android:top="200dp"
+        android:bottom="-300dp"
+        >
+        <rotate
+            android:fromDegrees="-20"
+            >
+            <bitmap android:src="@drawable/ic_launcher_background" android:gravity="center" android:alpha="0.4"/>
+        </rotate>
+    </item>
+</layer-list>
